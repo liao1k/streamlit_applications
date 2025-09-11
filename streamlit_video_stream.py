@@ -1,6 +1,6 @@
 import streamlit as st
 st.title('My First Streamlit Tabs Application')
-tab1, tab2, tab3, tab4 = st.tabs(["Cat", "Dog", "Owl", "MusicVideo Streaming"])
+tab1, tab2, tab3, tab4 = st.tabs(["Cat", "Dog", "Owl", "Music Video Streaming"])
 
 with tab1:
     st.header("A cat")
@@ -16,6 +16,7 @@ with tab3:
 with tab4:
     st.header('YT Video 放鬆音樂 Streaming')
     st.video('https://www.youtube.com/watch?v=yjiJ5CBrJg0')
+
 
 
 
