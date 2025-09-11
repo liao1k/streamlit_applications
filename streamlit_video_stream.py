@@ -1,5 +1,5 @@
 import streamlit as st
-st.title('Streamlit on GitHub via Cursor')
+st.title('LKX Streamlit on GitHub via Cursor')
 tab1, tab2, tab3, tab4 = st.tabs(["Cat", "Dog", "Owl", "Music Video Streaming"])
 
 with tab1:
