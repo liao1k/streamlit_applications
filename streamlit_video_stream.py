@@ -13,7 +13,8 @@ with tab3:
     st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
 with tab4:
     st.header('本地视频')
-    st.video("IMG_1905.mov")
+    st.video("IMG_1908.MOV")
+
 
 
 
