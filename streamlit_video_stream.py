@@ -1,5 +1,5 @@
 import streamlit as st
-st.title('Kunming Streamlit on GitHub via Cursor')
+st.title('昆明 Streamlit on GitHub via Cursor')
 tab1, tab2, tab3, tab4 = st.tabs(["Cat", "Dog", "Owl", "Music Video Streaming"])
 
 with tab1:
@@ -16,7 +16,4 @@ with tab3:
 with tab4:
     st.header('YT Video 放鬆音樂 Streaming')
     st.video('https://www.youtube.com/watch?v=yjiJ5CBrJg0')
-
-
-
 
